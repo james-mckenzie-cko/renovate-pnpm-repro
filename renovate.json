@@ -8,7 +8,16 @@
   "schedule": ["at any time"],
   "timezone": "Europe/London",
   "labels": ["dependencies"],
+  "encrypted": {
+    "npmToken": "wcFMA/xDdHCJBTolAQ//ZbdfEI8CbVy/7FMmbWIzYOqkvFFxMv8my7tqPeCG0CZVWvx91CoXY0Ll047K3AUYsWrLFSVHR7mHkSWhauD1GgtqFxVQ1VVfi2E9nz+UOOLTp7TdNN3et9Y7FR51W8r3qsOIv1x/Q4fUiN784QskKZppOM0gpUtf5zJTydn39GYBE/SmXCgCgjDsfuIbIRGve+CZYWASsmmLxQtk2j8VHjcSvo+taSJfAmNxSpxnRWT3Gn6ePuOTgrjxc0B+v1jAGA6klM+kqinQbxuQcXSFS5+7aaME0axyHQS5pSn0t431TDGfyNHjVWK2YJQMoI0Jlgp4eqSRXfYT4SP3Cu3HUAH2hlDlPwqoPYsR0b4cHQ31zetZ7KgpyYXmEey6Zu720ywtnHd7l8rcujmTYA9kEFpIQ9kEQKq4UhnUZbl1S8prBcorvsPIpKgDPAppIDIn7AOJ7A5qyPeErzjSzMB2Lna3+ay1Kwv+eIqiwBJZijGSA6fyzkaze/u6dpIeq7eAULOZlIidb2QqP7+4/gyCP91ghk+3tjGtI7DGF1emnk5FRxEZ4sRh3rc/GwGsc3IMv+dDCjZjCprHnL8zsbHrsmWmZbfn9wsyh+lB8ZJj/SiRx3FRBl/UgDtFW09ywj9NFyzwL2oRwu85Xs9aovE/m8dPDMvPoqiZDSEnNFfGO2TSfAEdrBCKptYotuG4e5J3+lFbo16HfPZFcGpyYv/bqQIH7FJh7ooKaBTBaRwnaYa9HuafIH6FTyHuV4FBMmJWgamuss7e0jlYPkjLUPZA2cvJIEjcbIRtPTuDOOGhvyMiuyKU2C+3QfnhGnQ1IqBrBJ9+AMf5rAo+7l5f0IY"
+  },
+  "npmrc": "@cko:registry=https://checkout.myget.org/F/ckotech/npm/\n//checkout.myget.org/F/ckotech/npm/:_authToken=${NPM_TOKEN}",
   "packageRules": [
+    {
+      "matchPackagePatterns": ["^@cko"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major CKO dependencies"
+    },
     {
       "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["patch"],

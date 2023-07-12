@@ -7,11 +7,28 @@ importers:
 
   apps/app1:
     specifiers:
+      '@cko/primitives': 7.8.1
       d3: 7.0.0
     dependencies:
+      '@cko/primitives': 7.8.1
       d3: 7.0.0
 
 packages:
+
+  /@cko/primitives/7.8.1:
+    resolution: {integrity: sha1-zGxclICOpiA7iCa8LsAR62MP0N0=, tarball: '@cko/primitives/-/@cko/primitives-7.8.1.tgz'}
+    peerDependencies:
+      '@cko/icons': ^7.0
+      '@cko/utils': ^7.0
+      downshift: ^6.0
+      focus-visible: ^5.0
+      polished: ^3.0
+      react: ^16.0
+      react-dom: ^16.0
+      react-focus-lock: ^2.0
+      styled-components: ^5.0
+      styled-system: ^5.0
+    dev: false
 
   /commander/7.2.0:
     resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
