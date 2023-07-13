@@ -11,7 +11,7 @@
   "encrypted": {
     "npmToken": "wcFMA/xDdHCJBTolARAAjouJ5aLl6TGpTsk6anF+NCeyq6192FkRw2be15KgccOKVnyS61xr66TrwMHa24GOZHz+/IdD9u/AHwNEv9kH2Mma/WqFMltxA1s9ahUpIayEl5Vxwd8oEPazcx4BgiytfwTiz20Vk7SqRsSGW37Gno7JjPeL4maAV3WXyU0yGOijM8het02Qy9oOvz2/z5c/LgPhsbwXr//BdkqRSfgFdw7nsolo97NXBtqpaWS8hJGQpzCkx6CMHh+FqQURexeD461z8Q6ae4+UItvGMuxyiHl0l9xiS1wcOIeaK2XtHKda3YJwEg24yLx4+R1Yo79JVXH5jSHEtDM3+arCsQ54ees0cEjkbiVozqOxPCx6y76NzaEVlS5KaE6N3q5/mNBuuyC88XUQVfm8oPQuC9cuTjdyEHeaw1IW9P8i1+kcqHsSgH+8wB+kS8aWJu26GGzilPG9xVnFRZ5qZRtN9+0cT08CGh2vNDweuQJfzK+iValmRTIHRBnxNzgIrnqaxHAEJqQV3O6zrhQMeEa3kzPHrIZmSW6I8TBs46DnnBwz2hGr405cQhf3qZo+jAqUdajeWIQgwZsaAgI1lH2IumKKKnzPr+2UQd5rCgWkMYEmqL5tWvF4eXQ+Ke9kpKBpH1ofCPJqmo2fd+xUnbWKqZpsJIFILOL9QtTcE5SCm+zL0HPSfQFUBOCark7WBi1TNPHJ2k1iXPZzd7HWMXGqXrKl/7NXZsp0zXHoj5Sly0E49rKCgXHkQgbhfiHKLfGiv2J+qIe5K4oJOdPq6FzYdRVqcQ8SJvnh015usS5KNTfY5yCXFf25sd15Bts6+IdOWrje9vBridd6VKvAptZCvAkB"
   },
-  "npmrc": "@cko:registry=https://checkout.myget.org/F/ckotech/npm/\n//checkout.myget.org/F/ckotech/npm/:_authToken=${NPM_TOKEN}",
+  "npmrc": "@cko:registry=https://checkout.myget.org/F/ckotech/npm\n//checkout.myget.org/F/ckotech/npm:_authToken=${NPM_TOKEN}",
   "packageRules": [
     {
       "matchPackagePatterns": ["^@cko"],
