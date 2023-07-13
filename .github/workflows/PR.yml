@@ -6,6 +6,7 @@ on:
 env:
   CI: true
   PNPM_VERSION: 6.31.0
+  MYGET_NPM_TOKEN: ${{ secrets.CHECKOUT_MYGET_ACCESS_TOKEN }}
 
 jobs:
   checks:
